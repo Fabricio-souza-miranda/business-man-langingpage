@@ -1,0 +1,68 @@
+.main {
+  background-image: url(../img/top_banner.jpg);
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-logo {
+  width: 300px;
+  padding: 80px 0 0 60px;
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 60px 0px 60px;
+}
+.main-content h1{
+  padding-top: 80px;
+  max-width: 750px;
+}
+
+.main-content p {
+  max-width: 600px;
+  padding-top: 24px;
+}
+
+.main-content .botao {
+  margin-top: 40px;
+}
+
+@media (max-width:1000px){
+  .main {
+    background-image: url(../img/mobile.png);
+    justify-content: center;
+    align-items: center;
+    }
+
+  .top-logo{
+    justify-content: center;
+    align-items: center;
+    padding: 350px 0 0 0px;
+    width: 250px;
+  }
+  .main-content p {
+    font-size: 1rem;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+    color: var(--cor-2);
+    margin: 0 auto;
+  }
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
+  }
+}
+
+@media (max-width:750px){
+  .main-content p {
+    font-size: 0.9rem;
+  }
+}

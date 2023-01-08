@@ -1,0 +1,14 @@
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(269.53deg, #91FF44 0.64%, #54C407 100%);
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  footer h3 a{
+    font-size: 0.9rem;
+  }
+}

@@ -8,9 +8,29 @@
 } */
 
 .botao {
-  display: inline-block;
-  text-transform: uppercase;
-  max-width: max-content;
+  height: 60px;
+  width: 370px;
+  padding: 18px 36px;
+  background-color: var(--cor-main);
+  border: 1px solid var(--cor-p4);
+  font: 700 1.125rem/1.35 "Sora", sans-serif;
+  font-weight: 700;
+  color: var(--cor-w);
   cursor: pointer;
+  max-width: max-content;
+  transition: .2s ease-in;
 }
 
+.botao:hover{
+  background-color: var(--cor-p3);
+  transform: translateY(-5px);
+}
+
+@media (max-width:450px){
+  .botao{
+    height: 60px;
+    width: 280px;
+    font: 700 0.8rem/1.25 "Sora", sans-serif;
+    padding: 12px 24px;
+  }
+}

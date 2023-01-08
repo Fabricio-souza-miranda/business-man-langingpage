@@ -1,0 +1,26 @@
+.caracteristicas {
+  display: flex;
+  justify-content: center;
+  padding: 120px 70px;
+}
+
+.mobile-image {
+  display: none;
+}
+
+@media (max-width: 720px){
+.mobile-image {
+    display: block;
+    max-width: 400px;
+  }
+.desktop-image {
+    display: none;
+  }
+}
+
+@media (max-width: 400px){
+  .mobile-image {
+    max-width: 300px;
+    padding-top: 40px;
+  }
+}
