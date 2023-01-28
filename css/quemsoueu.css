@@ -19,6 +19,7 @@
 
 .quemsoueu img{
   width: 600px;
+  padding-right: 80px;
 }
 
 .quemsoueu-content p {
@@ -37,6 +38,9 @@
   }
   .quemsoueu {
     padding-bottom: 120px;
+  }
+  .quemsoueu img{
+    padding-right: 0px;
   }
 }
 
